@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="CSS/main.css">
+<link rel="stylesheet" href="CSS/gaming.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -23,10 +23,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
     <a href="horror.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Horror</a>
     <a href="technology.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Technology</a>
-    <a href="gaming.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gaming</a>
+    <a href="gaming.html" class="w3-bar-item w3-button w3-padding-large w3-white">Gaming</a>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Other hobbies</a>
   </div>
 
@@ -49,14 +49,61 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Who am I?</h1>
-      <h5 class="w3-padding-32">That is a great question. I am Ethan Gulseth, a student at Shakopee High School. I am currently a junior and will be graduating in 2024.</h5>
-
-      <p class="w3-text-grey">To keep this short so you can visit my other pages, I like horror media, gaming, shooting firearms, military stuff, and technology.</p>
+      <h1>Check out my steam page by clicking on it here!</h1>
     </div>
 
     <div class="w3-third w3-center">
-    <img src="images/fish.png" alt="Ethan holding a northern pike" style="width:400px;height:400px;">
+      <a target="_blank" href="https://steamcommunity.com/profiles/76561198162249496">
+        <img src="images/steamicon.png" style="width:350px;height:350px;">
+       </a>
     </div>
   </div>
 </div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>FAVORITE MOMENTS</h1>
+      <h5 class="w3-padding-32">These are some of my favorite gaming moments that I have had.</h5>
+
+      <img src="images/presentation.png" alt="Ethan at a presentation for his GPS project" width="200px" height="200px">
+      <img src="images/group.png" alt="Ethan with his COOP group for 4th hour" width="200px" height="200px">
+      <img src="images/IMG_5766.jpg" alt="Ethan sitting in a army vehicle" width="200px" height="200px">
+      <img src="images/lucasme.jpg" alt="Ethan and Lucas" width="200px" height="200px">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-white w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a target="_blank" href="https://www.instagram.com/ethan.gulseth/">
+      <img src="images/instagram.png" style="width:50px;height:50px;">
+     </a>
+     <a target="_blank" href="https://twitter.com/Ethancozy225">
+      <img src="images/twitter.png" style="width:50px;height:50px;">
+     </a>
+ </div>
+ <div> SOCIAL LINKS</div>
+</footer>
+
+<script>
+  
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+
+</body>
+
+</html>
+
